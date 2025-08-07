@@ -3,8 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
+  display: "swap",
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  fallback: ["Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"],
 });
 
 const geistMono = Geist_Mono({
