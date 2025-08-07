@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -17,7 +15,7 @@ export default function Home() {
             <td>
               right arrow
               <small className="block text-xs text-gray-500">
-                with `font-family: 'Geist'` manually applied
+                with `font-family: &apos;Geist&apos;` manually applied
               </small>
             </td>
             <td className="pl-4 font-[Geist]">&rarr;</td>
@@ -34,7 +32,7 @@ export default function Home() {
             <td>
               left arrow
               <small className="block text-xs text-gray-500">
-                with `font-family: 'Geist'` manually applied
+                with `font-family: &apos;Geist&apos;` manually applied
               </small>
             </td>
             <td className="pl-4 font-[Geist]">&larr;</td>
@@ -51,7 +49,7 @@ export default function Home() {
             <td>
               triangle (up)
               <small className="block text-xs text-gray-500">
-                with `font-family: 'Geist'` manually applied
+                with `font-family: &apos;Geist&apos;` manually applied
               </small>
             </td>
             <td className="pl-4 font-[Geist]">▲</td>
@@ -64,7 +62,7 @@ export default function Home() {
             <td>
               triangle (down)
               <small className="block text-xs text-gray-500">
-                with `font-family: 'Geist'` manually applied
+                with `font-family: &apos;Geist&apos;` manually applied
               </small>
             </td>
             <td className="pl-4 font-[Geist]">▼</td>
